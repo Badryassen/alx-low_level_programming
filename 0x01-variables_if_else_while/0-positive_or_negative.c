@@ -1,16 +1,19 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
- * main - Entry point
+ * main - entry point
  *
- * Description: print value of n; zero, positive or negative
+ * Description: false or true validation
  *
- * Return: Always 0 (Success)
+ * Return: 0 (success)
 */
+
 int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n>0)
