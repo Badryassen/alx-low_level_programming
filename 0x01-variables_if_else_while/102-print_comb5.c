@@ -31,9 +31,9 @@ int main(void)
 					putchar(' ');
 				}
 			}
-			sDigit;
+			sDigit++;
 		}
-		firstDigit;
+		firstDigit++;
 	}
 	putchar('\n');
 
